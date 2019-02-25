@@ -1,7 +1,7 @@
 const controller = {};
 
 controller.index = (req, res)=>{
-    res.send('Index Page');
+    res.render('index');
 };
 
 module.exports= controller;
